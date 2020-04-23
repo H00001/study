@@ -35,3 +35,5 @@ a:使用双namenode,高可用机制
 q:namenode 如果快速响应查找
 a:可能存在内存中，通过mmap机制映射进入
 
+![IMG_0E46892AF6BB-1 2](/Users/dosdrtt/Downloads/IMG_0E46892AF6BB-1 2.jpeg)
+
