@@ -59,3 +59,18 @@ ssh-keygen -t ed25519
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICRjV3DBfItUhxdNIlL43sNJmr5Q92mpSPkxwJ+kp4cH parallels@server-leader
 ```
 
+```html
+<property>
+   <name>hadoop.tmp.dir</name>
+   <value>file:/usr/hadoop-2.7.7/hdfs/tmp</value>
+   <description>A base for other temporary directories.</description>
+ </property>
+ <property>
+  <name>io.file.buffer.size</name>
+   <value>131072</value>
+ </property>
+ <property>
+   <name>fs.defaultFS</name>
+   <value>hdfs://sunxj-hdm.myhd.com:9000</value>
+ </property>
+```
