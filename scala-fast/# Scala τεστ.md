@@ -67,6 +67,8 @@ object test {
 
   def vp: String => List[String] = {
       null  
+      //这里不是定义，而是负值
+      // vp是一个形如 xx 的函数变量，负值结果会执行函数体
   }
 
   def main(args: Array[String]): Unit = {
